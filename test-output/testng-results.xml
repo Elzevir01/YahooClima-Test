@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-16T19:52:44 ART" name="TestSuite" finished-at="2022-10-16T19:53:21 ART" duration-ms="36261">
+    <groups>
+    </groups>
+    <test started-at="2022-10-16T19:52:44 ART" name="CHROME" finished-at="2022-10-16T19:53:21 ART" duration-ms="36261">
+      <class name="com.yahoo.YahooClimaTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.yahoo.YahooClimaTest@5fd62371]" started-at="2022-10-16T19:52:44 ART" name="setUp" finished-at="2022-10-16T19:52:57 ART" duration-ms="12539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="f()[pri:0, instance:com.yahoo.YahooClimaTest@5fd62371]" started-at="2022-10-16T19:52:57 ART" name="f" finished-at="2022-10-16T19:53:20 ART" duration-ms="23122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.yahoo.YahooClimaTest@5fd62371]" started-at="2022-10-16T19:53:20 ART" name="tearDown" finished-at="2022-10-16T19:53:21 ART" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yahoo.YahooClimaTest -->
+    </test> <!-- CHROME -->
+  </suite> <!-- TestSuite -->
+</testng-results>
